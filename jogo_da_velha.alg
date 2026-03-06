@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "jogo_da_velha"
 
 var
    l, c, x, i, o, cont: inteiro
@@ -42,7 +42,7 @@ inicio
       cont <- 0
       repita
             cont <- cont + 1
-            escreva ("Posição do [X]: ")
+            escreva ("PosiÃ§Ã£o do [X]: ")
             leia (x)
             para l <- 1 ate 3 faca
                  para c <- 1 ate 3 faca
@@ -58,7 +58,7 @@ inicio
                fimalgoritmo
             fimse
             se cont < 5 entao
-               escreva ("Posição do [O]: ")
+               escreva ("PosiÃ§Ã£o do [O]: ")
                leia (o)
                para l <- 1 ate 3 faca
                     para c <- 1 ate 3 faca
@@ -81,3 +81,4 @@ inicio
 
 
 fimalgoritmo
+
