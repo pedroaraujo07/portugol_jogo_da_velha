@@ -76,9 +76,6 @@ inicio
             fimse
       ate cont = 5
       escreval ("VELHA!")
-                   
-
-
-
 fimalgoritmo
+
 
